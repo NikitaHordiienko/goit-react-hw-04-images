@@ -47,7 +47,7 @@ export default function App() {
         setStatus(Status.REJECTED);
       }
 
-    } catch (error) {
+    } catch (setError) {
       console.log(error) 
       setError(error)
     }

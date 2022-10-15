@@ -32,6 +32,7 @@ export default function App() {
       getImagesFromApi(); 
     }, 1500)
     
+    // eslint-disable-next-line
   }, [query]);
 
   const getImagesFromApi = async () => {    
